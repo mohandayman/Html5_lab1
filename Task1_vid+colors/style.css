@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+body > video{
+    display: block;
+    margin-bottom: 20px;
+    width: 70%;
+    margin: 20px auto;
+}
+.controls{
+    width: 70%;
+    margin: 20px auto;
+   
+}
+body > div > input[type=range]  {
+display: block;
+width: 90%;
+}
+#range{
+    margin: auto;
+    width: 84%;
+    display: inline;
+    accent-color: #F55050;
+
+
+}
+.btns>button {
+    font-size: 20px;
+    padding: 5px 30px;
+    margin: 5px;
+    background-color: #00bcd4;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+h2{
+ margin: 10px auto;
+ text-align: center;
+}
+#speedRange{
+    width: 20%;
+    display: inline; 
+}
+#volumeRange{
+    width: 20%;
+    display: inline; 
+}
+#ranges{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+p{
+    margin: 30px;
+    font-size: 20px;
+
+}

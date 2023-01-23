@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="~/favicon.ico" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="task1">Task 1</h2>
+    <video controls src="./videoplayback.mp4"></video>
+    <div class="controls">
+      <input
+        type="range"
+        id="range"
+        value="0"
+        min="0"
+        step="1"
+        max="239.072653"
+      />
+      <span id="timer"></span>
+      <div class="btns">
+        <button id="stop">stop</button>
+        <button id="play">play</button>
+        <button id="start"><<</button>
+        <button id="decrease"><</button>
+        <button id="increase">></button>
+        <button id="end">>></button>
+      </div>
+      <br />
+      <span>speed</span>
+      <input type="range" id="speedRange" max="2" min=".1" step=".1" />
+      <span>volume</span>
+      <input type="range" id="volumeRange" max="1" min="0" step=".1" />
+    </div>
+    <hr />
+    <h2>Task 2</h2>
+    <div id="ranges">
+      <div>red <input id="red" max="255" type="range" /></div>
+      <div>green <input id="green" max="255" type="range" /></div>
+      <div>blue <input id="blue" max="255" type="range" /></div>
+    </div>
+    <p>
+      Lorem ipsum dolor Iure possimus dolores eum ab numquam esse commodi magni
+      itaque, temporibus officiis!
+    </p>
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="./Task1Script.js"></script>
+  </body>
+</html>
